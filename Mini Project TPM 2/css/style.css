@@ -1,0 +1,13 @@
+.todo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: xx-large;
+}
+
+.todo-card {
+    flex: 1 1 calc(25% - 1rem);  /* Lebar 25% dikurangi margin */
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 2px solid #EDEDF9;
+}
